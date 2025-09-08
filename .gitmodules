@@ -3,4 +3,4 @@
 	url = git@github.com:ChatGr0up/CHATCBBCommon.git
 [submodule "CHATCBBThirdPartyDepends"]
 	path = CHATCBBThirdPartyDepends
-	url = https://github.com/ChatGr0up/CHATCBBThirdPartyDepends.git
+	url = git@github.com:ChatGr0up/CHATCBBThirdPartyDepends.git
