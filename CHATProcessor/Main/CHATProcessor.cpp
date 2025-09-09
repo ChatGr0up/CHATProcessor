@@ -3,6 +3,7 @@
 #include "LockFreeMPSCLogger/LogMacro.hpp"
 
 int main() {
+    LOG_INFO("Starting CHATProcessor...");
     CBB::ModuleController::ModuleHolder::instance().init();
     LOG_INFO("CHATProcessor started. waiting for termination signal...");
     sigset_t mask;
