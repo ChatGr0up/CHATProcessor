@@ -4,6 +4,7 @@ add_executable(CHATProcessor ${MAIN_SRC})
 
 target_link_libraries(CHATProcessor
     PRIVATE
+        pthread
         ModuleController
         LockFreeMPSCLogger              
         CHATCBBThirdPartyDepends     
