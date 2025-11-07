@@ -7,7 +7,8 @@ target_link_libraries(CHATProcessor
         pthread
         ModuleController
         LockFreeMPSCLogger              
-        CHATCBBThirdPartyDepends     
+        CHATCBBThirdPartyDepends
+        Concurrency     
 )
 
 target_include_directories(CHATProcessor
